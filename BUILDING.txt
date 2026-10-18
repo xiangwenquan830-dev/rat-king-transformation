@@ -1,0 +1,17 @@
+Rat King test36 source build
+
+Java 17, Minecraft 1.20.1, Forge 47.4.23 build target (runtime range 47.4.10+).
+Run gradlew.bat build on Windows or ./gradlew build on other systems.
+First use downloads Gradle/Forge dependencies. --offline only works with a populated cache.
+
+The following optional-mod compile dependencies are intentionally not redistributed in this archive. Obtain the appropriate versions from their authors and place them in libs with these exact filenames used by build.gradle:
+- tacz-1.1.8.jar
+- parcool-3.4.3.3.jar
+- wolverine-r72-guard2s.jar
+The historical Wolverine compile jar filename is intentional; the r74 turning API is optional and resolved at runtime. Do not replace compile-only jars with unrelated downloads.
+Wolverine official project: https://www.curseforge.com/minecraft/mc-mods/wolverine-claws-healing
+
+src/main contains production code and assets. src/audit contains isolated regression fixtures, excluded from ordinary release jars. Do not install diagnostic builds in a real world: the fixtures manipulate player state and the environment.
+verifyRig and runGameTestServer are optional validation tasks. Diagnostic jars use -PratkingAuditJar and must not be distributed as play builds.
+
+This source tree was reconstructed from the reviewed test35 optimization source plus the author's test36 changes. The offline build before publication reproduced all 107 release class files exactly. The original release jar is attached separately.

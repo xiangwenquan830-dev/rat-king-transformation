@@ -1,0 +1,10 @@
+Rat King Transformation — All Rights Reserved
+
+Original contributions to this mod are reserved by their respective author(s).
+The source is made available for inspection; no general open-source license is granted.
+
+This is an unofficial fan project based on the Rat King character from Deadlock.
+Deadlock and associated character concepts and marks belong to their respective owners.
+This project is not affiliated with or endorsed by Valve.
+
+Bundled Gradle wrapper components and any other third-party components retain their own applicable licenses. The inherited Forge template notices are preserved separately as THIRD_PARTY_NOTICES.txt and do not set the license of the mod's original code or assets.
